@@ -40,4 +40,5 @@ function comprarInferior(qtd) {
         qtdInferior = qtdInferior - qtd
         document.getElementById("qtd-inferior").textContent = qtdInferior
         alert("Compra efetuada com sucesso!");
+    }
 }
