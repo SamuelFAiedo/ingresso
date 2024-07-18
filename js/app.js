@@ -30,6 +30,7 @@ function comprarSuperior(qtd) {
         qtdSuperior = qtdSuperior - qtd
         document.getElementById("qtd-superior").textContent = qtdSuperior
         alert("Compra efetuada com sucesso!");
+    }
 }
 
 function comprarInferior(qtd) {
